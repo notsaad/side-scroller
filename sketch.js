@@ -13,6 +13,16 @@ function keyPressed() {
     var jump = createVector(0, -5);
     person.applyForce(jump);
   }
+  
+    if (key == 'left'){
+    var jump = createVector(-5, 0);
+    person.applyForce(left);
+  }
+  
+    if (key == 'right'){
+    var right = createVector(5, 0);
+    person.applyForce(right);
+  }
 
 }
 
