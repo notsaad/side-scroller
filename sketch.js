@@ -14,12 +14,12 @@ function keyPressed() {
     person.applyForce(jump);
   }
   
-    if (key == 'left'){
+    if (keyCode == 37){
     var jump = createVector(-5, 0);
     person.applyForce(left);
   }
   
-    if (key == 'right'){
+    if (keyCode == 38){
     var right = createVector(5, 0);
     person.applyForce(right);
   }
